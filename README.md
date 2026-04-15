@@ -13,3 +13,11 @@ The dataset is sourced from the **Mayo Clinic Liver Cirrhosis Study**.
 - **Key Features:** Age, Sex, Ascites, Hepatomegaly, Spiders, Edema, Bilirubin, Cholesterol, Albumin, Copper, Alk_Phos, SGOT, Tryglicerides, Platelets, Prothrombin.
 - **Challenge:** The dataset was highly imbalanced with significant missing values.
 
+## 🛠️ Technical Workflow
+
+### 1. Data Preprocessing
+- **Handling Missing Values:** Used `KNNImputer` to estimate missing clinical values based on the nearest neighbors.
+- **Encoding:** Categorical variables (Sex, Drug, Spiders, etc.) were transformed using `LabelEncoder`.
+- **Scaling:** Applied `StandardScaler` to normalize the range of independent variables.
+- **Handling Imbalance:** Used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the classes in the training set.
+
