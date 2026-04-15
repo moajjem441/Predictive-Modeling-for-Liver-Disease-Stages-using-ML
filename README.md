@@ -25,3 +25,20 @@ The dataset is sourced from the **Mayo Clinic Liver Cirrhosis Study**.
 - Analyzed feature correlations using Heatmaps.
 - Visualized the distribution of liver stages to identify class imbalance.
 
+### 3. Model Implementation
+I experimented with multiple algorithms to find the best fit:
+- **Decision Tree Classifier**
+- **Random Forest Classifier**
+- **XGBoost Classifier**
+
+
+
+## 📈 Performance Comparison
+
+| Model | Classification Type | Accuracy |
+| :--- | :--- | :--- |
+| Decision Tree | Multi-class (1-4) | 47.62% |
+| Random Forest (SMOTE) | Multi-class (1-4) | 48.81% |
+| XGBoost | Multi-class (1-4) | 45.24% |
+| **Random Forest (Binary)** | **Binary (Low/High Risk)** | **68.60%** |
+
