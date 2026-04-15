@@ -21,3 +21,7 @@ The dataset is sourced from the **Mayo Clinic Liver Cirrhosis Study**.
 - **Scaling:** Applied `StandardScaler` to normalize the range of independent variables.
 - **Handling Imbalance:** Used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the classes in the training set.
 
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed feature correlations using Heatmaps.
+- Visualized the distribution of liver stages to identify class imbalance.
+
