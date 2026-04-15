@@ -54,4 +54,13 @@ Based on the Random Forest model, the following features were most critical in d
 4. **Prothrombin Time**
 
 
+## 🚀 How to Use
+
+Follow these steps to set up the project locally and run the analysis:
+
+### 1. Clone the Repository
+First, clone this repository to your local machine:
+```bash
+git clone [https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git](https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git)
+
 
