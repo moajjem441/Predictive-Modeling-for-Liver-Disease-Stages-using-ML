@@ -42,3 +42,9 @@ I experimented with multiple algorithms to find the best fit:
 | XGBoost | Multi-class (1-4) | 45.24% |
 | **Random Forest (Binary)** | **Binary (Low/High Risk)** | **68.60%** |
 
+
+### Key Insight:
+While multi-class prediction is challenging due to the small dataset, the **Binary Classification** model is quite effective at identifying high-risk patients (Stages 3 & 4) with nearly **69% accuracy**.
+
+
+
