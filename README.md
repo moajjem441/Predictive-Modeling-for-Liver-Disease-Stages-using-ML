@@ -72,3 +72,14 @@ If you prefer to run it on your own computer, follow these steps:
 ```bash
 git clone [https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git](https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git)
 cd Predictive-Modeling-for-Liver-Disease-Stages-using-ML
+
+B. Install Required Libraries:
+
+Bash
+pip install -r requirements.txt
+C. Launch the Notebook:
+Open your terminal and run:
+
+Bash
+jupyter notebook
+Then, open the .ipynb file from the dashboard.
