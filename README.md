@@ -46,5 +46,12 @@ I experimented with multiple algorithms to find the best fit:
 ### Key Insight:
 While multi-class prediction is challenging due to the small dataset, the **Binary Classification** model is quite effective at identifying high-risk patients (Stages 3 & 4) with nearly **69% accuracy**.
 
+## 🧬 Feature Importance
+Based on the Random Forest model, the following features were most critical in determining the disease stage:
+1. **Bilirubin**
+2. **Copper**
+3. **Albumin**
+4. **Prothrombin Time**
+
 
 
