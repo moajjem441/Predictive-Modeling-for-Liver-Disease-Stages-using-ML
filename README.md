@@ -56,11 +56,19 @@ Based on the Random Forest model, the following features were most critical in d
 
 ## 🚀 How to Use
 
-Follow these steps to set up the project locally and run the analysis:
+You can run this project either directly on Kaggle (recommended for ease of use) or locally on your machine.
 
-### 1. Clone the Repository
-First, clone this repository to your local machine:
+### 1. Run on Kaggle (Easiest Way)
+Since this project was developed on Kaggle, you can run it without any local setup:
+* **Step 1:** Go to the [Kaggle Notebook](https://www.kaggle.com/code/your-username/your-notebook-slug). *(Replace with your actual link)*
+* **Step 2:** Click on the **"Copy and Edit"** button.
+* **Step 3:** Ensure the `cirrhosis.csv` dataset is attached in the input directory.
+* **Step 4:** Run all cells to see the data processing, visualizations, and model results.
+
+### 2. Run Locally
+If you prefer to run it on your own computer, follow these steps:
+
+**A. Clone the Repository:**
 ```bash
 git clone [https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git](https://github.com/moajjem441/Predictive-Modeling-for-Liver-Disease-Stages-using-ML.git)
-
-
+cd Predictive-Modeling-for-Liver-Disease-Stages-using-ML
